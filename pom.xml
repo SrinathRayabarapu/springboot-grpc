@@ -11,8 +11,13 @@
 	<groupId>com.springboot.grpc</groupId>
 	<artifactId>springboot-grpc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>springboot-grpc</name>
 	<description>Spring Boot and GRPC demo</description>
+	<modules>
+		<module>microservice-1</module>
+		<module>microservice-2</module>
+	</modules>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
